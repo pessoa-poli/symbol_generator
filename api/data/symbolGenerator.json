@@ -1,0 +1,11 @@
+{
+    "sidc": "valorSIDC",
+    "options": {
+        "size": 50,
+        "direction": 90,
+        "speed": 300,
+        "altitudeDepth": 50,
+        "country": "br",
+        "quantity": 200
+    }
+}

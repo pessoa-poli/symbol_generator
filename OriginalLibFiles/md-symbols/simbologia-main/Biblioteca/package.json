@@ -1,0 +1,35 @@
+{
+  "name": "md33-m02-milsymbol",
+  "version": "0.0.1",
+  "description": "Biblioteca para criar simbologia militar segundo as regras do MD33-M-02.",
+  "main": "dist/index.d.ts",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab-cds.eb.mil.br:C2/md33-m02-milsymbol.git"
+  },
+  "author": "DSOpTer - CDS - Exército Brasileiro",
+  "license": "ISC",
+  "dependencies": {
+    "milsymbol": "^2.0.0",
+    "tslib": "^2.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-plugin-prettier": "^3.4.1",
+    "prettier": "^1.19.1",
+    "rollup": "^0.58.2",
+    "rollup-plugin-copy": "^0.2.3",
+    "stanag-app6": "^0.2.0",
+    "tead": "^0.5.3",
+    "uglify-js": "^3.17.4",
+    "typescript": "^5.2.2",
+    "ts-loader": "^9.4.4",
+    "webpack": "^5.4.0",
+    "webpack-cli": "^4.2.0"
+  }
+}

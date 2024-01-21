@@ -3,5 +3,5 @@ module.exports = app => {
     app.route('/api/v1/gen')
         .post(controller.symbolGenerator);
     app.route('/api/v1/gen')
-        .get(controller.symbolGenerator);
+        .get(controller.symbolGeneratorGET);
 }
